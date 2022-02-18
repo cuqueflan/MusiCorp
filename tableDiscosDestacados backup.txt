@@ -1,0 +1,25 @@
+   <table border="10" cellspacing="10px" cellpadding="20px" id="cuadroExitosMaster">
+        <tr id="cuadroExitos0">
+            <th>Banda</th>
+            <th>Disco</th>
+            <th>Canción destacada</th>
+        </tr>
+
+        <tr id="cuadroExitos1">
+            <td>Carbobronx</td>
+            <td>Cáustico</td>
+            <td>¿Cuando me voy a recibir?</td>
+        </tr>
+
+        <tr id="cuadroExitos2">
+            <td>Degustadores del futuro</td>
+            <td>En vivo: Degustando el Luna Park</td>
+            <td>Néctar</td>
+        </tr>
+
+        <tr id="cuadroExitos3">
+            <td>Cable</td>
+            <td>Rompecabezas</td>
+            <td>Sinópsis de un sueño</td>
+        </tr>
+    </table>
