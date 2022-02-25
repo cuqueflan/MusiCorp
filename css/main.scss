@@ -1,0 +1,101 @@
+h1{color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-family: monospace;
+    }
+    
+    a{color: rgb(90, 67, 223);}
+    
+    
+    ul#menuPrincipal
+    {
+    margin-left: 0;
+    padding-left: 0;
+    white-space: nowrap;
+    }
+    
+    #menuPrincipal li
+    {
+    display: inline;
+    list-style-type: none;
+    }
+    
+    #menuPrincipal a { padding: 3px 10px; }
+    
+    #menuPrincipal a:link, #menuPrincipal a:visited
+    {
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(118, 183, 248);
+    text-decoration: none;
+    }
+    
+    #menuPrincipal a:hover
+    {
+    color: #fff;
+    background-color: #369;
+    text-decoration: none;
+    }
+    
+    
+    ol#bienvenidaPasos
+    {
+    display: inline-block;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(51, 7, 109);
+    padding: 2rem;
+    margin: 2rem 2rem;
+    background-color: rgba(240, 128, 128, 0.432);
+    font-family: monospace;
+    font-weight: bold;
+    position: relative;
+    bottom: 30px;
+    }
+    
+    ul#pelisLista
+    {
+    display: inline-block;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(51, 7, 109);
+    padding: 2rem;
+    margin: 2rem 2rem;
+    background-color: rgba(240, 128, 128, 0.432);
+    font-family: monospace;
+    font-weight: bold;
+    }
+    
+    .fondo{
+    background-image: url(../img/fondo.jpg);
+    }
+    
+    .grid-container-destacados{
+        display: grid;
+        background-color: rgba(240, 128, 128, 0.432);
+        grid-template-areas: 'header header header'
+        'data1 data2 data3'
+        'data4 data5 data6'
+        'data7 data8 data9';
+    }
+    
+    .grid-container-destacados div{
+        text-align: center;
+        padding: 5px;
+        border: 1px solid black;
+        font-family: monospace;
+    
+    }
+    
+    .headerDestacados{
+        font-weight: bolder;
+    }
+    
+    .hojaContacto{
+        display: grid;
+    }
+    
+    .hojaContactoInput{
+        grid-template-areas: 'header header header';
+    }
+    
