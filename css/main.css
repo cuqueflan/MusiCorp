@@ -4,6 +4,12 @@ h1 {
   font-family: monospace;
 }
 
+h2 {
+  color: #33076d;
+  font-family: monospace;
+  font-weight: 600;
+}
+
 a {
   color: #5a43df;
 }
@@ -62,6 +68,54 @@ ul#pelisLista {
   font-family: monospace;
   font-weight: bold;
 }
+
+.playlist {
+  position: relative;
+  padding-left: 4rem;
+}
+
+.biografia {
+ 
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+  width: 40%;
+  float: left;
+}
+
+.proximos {
+  
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+  width: 40%;
+  float: right;
+}
+
+.separador {
+  height: 3rem;
+}
+
+.pie {
+  position: fixed;
+  bottom: 0px;
+}
+
+
 
 .fondo {
   background-image: url(../img/fondo.jpg);
