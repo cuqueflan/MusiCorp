@@ -10,6 +10,14 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  position: relative;
+  padding-left: 4rem;
+  color: #33076d;
+  font-family: monospace;
+  font-weight: 600;
+}
+
 a {
   color: #5a43df;
 }
@@ -74,6 +82,12 @@ ul#pelisLista {
   padding-left: 4rem;
 }
 
+.flexMusica{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
 .biografia {
  
   border-style: groove;
@@ -84,10 +98,15 @@ ul#pelisLista {
   background-color: rgba(240, 128, 128, 0.432);
   font-family: monospace;
   font-weight: bold;
-  position: relative;
-  bottom: 30px;
-  width: 40%;
-  float: left;
+  max-width: 40%;
+}
+
+img#bio {
+  max-width: 150px;
+}
+
+img#prox {
+  max-width: 150px;
 }
 
 .proximos {
@@ -100,11 +119,71 @@ ul#pelisLista {
   background-color: rgba(240, 128, 128, 0.432);
   font-family: monospace;
   font-weight: bold;
-  position: relative;
-  bottom: 30px;
-  width: 40%;
-  float: right;
+  max-width: 40%;
 }
+
+
+.flexPeliculas{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content:flex-start;
+}
+
+.peliculaUno {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:600px;
+
+}
+
+
+.peliculaDos {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 2;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:600px;
+
+}
+
+.peliculaTres {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 3;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:600px;
+
+
+}
+
+
 
 .separador {
   height: 3rem;
