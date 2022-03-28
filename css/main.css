@@ -10,6 +10,14 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  position: relative;
+  padding-left: 4rem;
+  color: #33076d;
+  font-family: monospace;
+  font-weight: 600;
+}
+
 a {
   color: #5a43df;
 }
@@ -74,8 +82,14 @@ ul#pelisLista {
   padding-left: 4rem;
 }
 
+.flexMusica{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content:flex-start;
+}
+
 .biografia {
- 
   border-style: groove;
   border-width: 5px;
   border-color: #33076d;
@@ -84,14 +98,14 @@ ul#pelisLista {
   background-color: rgba(240, 128, 128, 0.432);
   font-family: monospace;
   font-weight: bold;
-  position: relative;
-  bottom: 30px;
-  width: 40%;
-  float: left;
+  flex: 2;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width: 600px;
 }
 
 .proximos {
-  
   border-style: groove;
   border-width: 5px;
   border-color: #33076d;
@@ -100,11 +114,173 @@ ul#pelisLista {
   background-color: rgba(240, 128, 128, 0.432);
   font-family: monospace;
   font-weight: bold;
-  position: relative;
-  bottom: 30px;
-  width: 40%;
-  float: right;
+  flex: 2;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width: 600px;
 }
+
+img#bio {
+  max-width: 150px;
+}
+
+img#prox {
+  max-width: 150px;
+}
+
+
+.flexPeliculas{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content:flex-start;
+}
+
+.peliculaUno {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:600px;
+}
+
+
+.peliculaDos {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:600px;
+}
+
+.peliculaTres {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:600px;
+}
+
+
+.flexSeries{
+  display:flex;
+  flex-flow:column;
+  justify-content: space-around;
+  align-content:flex-start;
+}
+
+.serieUno {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:auto;
+}
+
+.serieDos {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:auto;
+}
+
+.serieTres {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:auto
+}
+
+.serieCuatro {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:auto;
+}
+
+img#posterSerieUno {
+ float: left;
+ margin-right: 20px;
+ margin-bottom: 20px;
+}
+
+img#posterSerieDos {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+ }
+
+img#posterSerieTres {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+ } 
+
+img#posterSerieCuatro {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+ } 
 
 .separador {
   height: 3rem;
