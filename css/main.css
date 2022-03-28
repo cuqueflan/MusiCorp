@@ -84,12 +84,12 @@ ul#pelisLista {
 
 .flexMusica{
   display:flex;
-  flex-direction:row;
-  flex-wrap:wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content:flex-start;
 }
 
 .biografia {
- 
   border-style: groove;
   border-width: 5px;
   border-color: #33076d;
@@ -98,7 +98,27 @@ ul#pelisLista {
   background-color: rgba(240, 128, 128, 0.432);
   font-family: monospace;
   font-weight: bold;
-  max-width: 40%;
+  flex: 2;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width: 600px;
+}
+
+.proximos {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 2;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width: 600px;
 }
 
 img#bio {
@@ -107,19 +127,6 @@ img#bio {
 
 img#prox {
   max-width: 150px;
-}
-
-.proximos {
-  
-  border-style: groove;
-  border-width: 5px;
-  border-color: #33076d;
-  padding: 2rem;
-  margin: 2rem 2rem;
-  background-color: rgba(240, 128, 128, 0.432);
-  font-family: monospace;
-  font-weight: bold;
-  max-width: 40%;
 }
 
 
@@ -144,7 +151,6 @@ img#prox {
   height: auto;
   min-width: 100px;
   max-width:600px;
-
 }
 
 
@@ -157,12 +163,11 @@ img#prox {
   background-color: rgba(240, 128, 128, 0.432);
   font-family: monospace;
   font-weight: bold;
-  flex: 2;
+  flex: 1;
   flex-basis: 200px;
   height: auto;
   min-width: 100px;
   max-width:600px;
-
 }
 
 .peliculaTres {
@@ -174,16 +179,108 @@ img#prox {
   background-color: rgba(240, 128, 128, 0.432);
   font-family: monospace;
   font-weight: bold;
-  flex: 3;
+  flex: 1;
   flex-basis: 200px;
   height: auto;
   min-width: 100px;
   max-width:600px;
-
-
 }
 
 
+.flexSeries{
+  display:flex;
+  flex-flow:column;
+  justify-content: space-around;
+  align-content:flex-start;
+}
+
+.serieUno {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:auto;
+}
+
+.serieDos {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:auto;
+}
+
+.serieTres {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:auto
+}
+
+.serieCuatro {
+  border-style: groove;
+  border-width: 5px;
+  border-color: #33076d;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  background-color: rgba(240, 128, 128, 0.432);
+  font-family: monospace;
+  font-weight: bold;
+  flex: 1;
+  flex-basis: 200px;
+  height: auto;
+  min-width: 100px;
+  max-width:auto;
+}
+
+img#posterSerieUno {
+ float: left;
+ margin-right: 20px;
+ margin-bottom: 20px;
+}
+
+img#posterSerieDos {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+ }
+
+img#posterSerieTres {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+ } 
+
+img#posterSerieCuatro {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+ } 
 
 .separador {
   height: 3rem;
